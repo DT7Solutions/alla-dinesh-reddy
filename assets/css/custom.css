@@ -113,8 +113,8 @@ body {
 .vlt-fullpage-slider .vlt-section .vlt-section__ken-burn-background img {
     position: absolute;
     z-index: -99;
-    left: 20%;
-    object-fit: contain;
+    /* left: 20%; */
+    /* object-fit: contain; */
 }
 .h1.vlt-large-heading,
 h1.vlt-large-heading {
@@ -484,4 +484,3 @@ h1.vlt-large-heading {
 
  
   
- 
