@@ -1,6 +1,6 @@
 body {
     color: #FBFBFB;
-    overflow: hidden;
+    /* overflow: hidden; */
     }
 [data-anchor=Contact] .email {
     color: #FBFBFB;
@@ -11,6 +11,12 @@ body {
 h3 {
     font-size: 2.125rem;
     line-height: 1.35;
+}
+.h1, h1 {
+    font-size: 3rem;
+}
+.vlt-gap-140 {
+    height: 3.75rem;
 }
 .vlt-gap-50 {
     height: 0.125rem;
@@ -517,6 +523,9 @@ h1.vlt-large-heading {
      
       
     }
+    .has-accent-color {
+        margin-top: 0px !important;
+    }
     }
     
 /* port */
@@ -528,7 +537,68 @@ h1.vlt-large-heading {
 .qualification{
     margin-top: 30px;
 }
+.cert{
+    margin-top: -52px;
+    text-align: center;
+}
+.info{
+    text-align: justify;
+    margin-left: 5px;
+}
+
+/* Mobile styles  */
+
+@media (max-width: 767px) {
+    .vlt-footer-copyright {
+        font-size: 0.725rem;
+        pointer-events: auto;
+    }
+    .vlt-language-switcher {
+        font-size: 0.725rem;
+        pointer-events: auto;
+    }
+ 
+}
+
+
 
 
  
   
+.has-accent-color {
+    margin-top: -400px;
+    color: #cf000f;
+}
+ /* Calendly  */
+ .calendly-badge-widget {
+    bottom: 10.5% !important;
+    right: 2.5% !important;
+}
+.calendly-badge-widget .calendly-badge-content {
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+    color: #fff;
+    cursor: pointer;
+    display: table-cell;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: 45px;
+    padding: 0 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+}
+.vlt-post-hero-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 10vh;
+    padding: 3rem 0 3.75rem;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
