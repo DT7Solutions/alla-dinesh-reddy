@@ -538,7 +538,7 @@ h1.vlt-large-heading {
     margin-top: 30px;
 }
 .cert{
-    margin-top: -52px;
+    margin-top: -62px;
     text-align: center;
 }
 .info{
@@ -560,10 +560,6 @@ h1.vlt-large-heading {
  
 }
 
-
-
-
- 
   
 .has-accent-color {
     margin-top: -400px;
@@ -594,11 +590,15 @@ h1.vlt-large-heading {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    min-height: 10vh;
+    min-height: 50vh;
     padding: 3rem 0 3.75rem;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
 }
+[data-anchor="Awards"] .vlt-animated-block {
+    margin-bottom: -50px !important;
+}
+
 

@@ -767,11 +767,6 @@
 				</div>
 			</div>
 
-			<!-- Calendly  -->
-			<div class="calendly-badge-widget">
-				<div class="calendly-badge-content" style="background: rgb(194, 3, 18); color: rgb(255, 255, 255);">Schedule time with me</div>
-			</div>
-
 			<!--Progress Bar-->
 			<div class="vlt-fullpage-slider-progress-bar"><span></span></div>
 		</div>
@@ -790,10 +785,21 @@
 	<script src="assets/scripts/vlt-helpers.js"></script>
 	<script src="assets/scripts/vlt-controllers.min.js"></script>
 	<!-- Calendly badge widget begin -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/sanstrategies?hide_landing_page_details=1&hide_gdpr_banner=1', text: 'Schedule time with me', color: '#c20312', textColor: '#ffffff', branding: false }); }</script>
-    <!-- Calendly badge widget end -->
+   <!-- Calendly Badge Widget -->
+   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+   <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+   <script type="text/javascript">
+    window.onload = function() {
+    Calendly.initBadgeWidget({
+      url: 'https://calendly.com/sanstrategies?hide_landing_page_details=1&hide_gdpr_banner=1',
+      text: 'Schedule time with me',
+      color: '#c20312',
+      textColor: '#ffffff',
+      branding: false
+    });
+  };
+   </script>
+
 </body>
 
 </html>
