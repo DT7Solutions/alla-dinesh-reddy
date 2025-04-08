@@ -10,6 +10,10 @@ body {
 [data-anchor=Contact] p {
     color: #FBFBFB;
 }
+.vlt-section[data-anchor="Partners"] .vlt-animated-block h3 {
+    margin-top: -137px;
+}
+
 
 h3 {
     font-size: 2.125rem;
@@ -19,6 +23,10 @@ h3 {
 .h1,
 h1 {
     font-size: 3rem;
+}
+
+.vlt-animated-block{
+    margin-top: 44px;
 }
 
 .vlt-gap-140 {
@@ -414,8 +422,9 @@ h1.vlt-large-heading {
     padding: 0;
     list-style-type: none;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 2.5rem;
-    grid-row-gap: 2.5rem;
+    grid-column-gap: 6.5rem;
+    grid-row-gap: 5.5rem;
+    margin-right: 36px;
 }
 
 .vlt-partners li img {
@@ -638,7 +647,6 @@ h1.vlt-large-heading {
         font-size: 0.725rem;
         pointer-events: auto;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
