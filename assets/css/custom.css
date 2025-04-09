@@ -10,13 +10,14 @@ body {
 [data-anchor=Contact] p {
     color: #FBFBFB;
 }
+
 .vlt-section[data-anchor="Partners"] .vlt-animated-block h3 {
     margin-top: -137px;
 }
 
 
 h3 {
-    font-size: 2.125rem;
+    font-size: 2.4rem;
     line-height: 1.35;
 }
 
@@ -25,7 +26,7 @@ h1 {
     font-size: 3rem;
 }
 
-.vlt-animated-block{
+.vlt-animated-block {
     margin-top: 5px;
 }
 
@@ -198,7 +199,7 @@ h1 {
 
 .vlt-navbar .vlt-navbar-logo img {
     display: block;
-    height: 50px !important;
+    height: 56px !important;
     position: absolute;
     left: 5.5%;
     top: 10%;
@@ -413,7 +414,44 @@ h1.vlt-large-heading {
     .vlt-fullpage-slider .vlt-section__content {
         padding: 5% 2.5%;
     }
-
+    [data-anchor="Awards"] .vlt-animated-block {
+        padding-top: 44px;
+    }
+    [data-anchor="Aboutme"] .vlt-animated-block {
+        padding-top: 44px;
+    }
+    [data-anchor="Aboutme"] .vlt-animated-block p {
+        margin: -49px 0 1.875rem;
+    }
+    [data-anchor="Education"] .vlt-animated-block {
+        padding-top: 44px;
+    }
+    [data-anchor="Contact"] .vlt-animated-block {
+        padding-top: 44px;
+    }
+    .vlt-section[data-anchor="Partners"] .vlt-animated-block h3 {
+        margin-top: 20px;
+    }
+    .vlt-navbar .vlt-navbar-inner {
+        padding: 1rem 0.5rem;
+        justify-content: space-between;
+        margin-left: -30px;
+        background-color: #cf000f;
+    }
+    .vlt-post-tags a {
+          font-size: 9px;
+        }
+    .vlt-navbar .vlt-navbar-logo img {
+        height: 45px !important;
+        margin-left: 21px;
+    }
+    .calendly-badge-widget .calendly-badge-content {
+        rotate: -90deg;
+    }
+    .calendly-badge-widget {
+        bottom: 35% !important;
+        right: 7.5% !important;
+    }
 }
 
 .vlt-partners {
@@ -628,6 +666,7 @@ h1.vlt-large-heading {
 .cert {
     margin-top: -62px;
     text-align: center;
+    font-size: 30px;
 }
 
 .info {
@@ -639,8 +678,10 @@ h1.vlt-large-heading {
 
 @media (max-width: 767px) {
     .vlt-footer-copyright {
-        font-size: 0.725rem;
-        pointer-events: auto;
+        display: none;
+    }
+    .vlt-footer {
+        display: none;
     }
 
     .vlt-language-switcher {
@@ -668,16 +709,12 @@ h1.vlt-large-heading {
 @media (max-width: 767px) {
     .olcards li .content .text {
         grid-area: text;
-
-
     }
 
     .has-accent-color {
         margin-top: 0px !important;
     }
 }
-
-
 .has-accent-color {
     margin-top: -400px;
     color: #cf000f;
@@ -725,6 +762,7 @@ h1.vlt-large-heading {
 .vlt-gap-60 {
     height: 1rem;
 }
-.vlt-section pp-scrollable{
+
+.vlt-section pp-scrollable {
     padding: 10px;
 }
