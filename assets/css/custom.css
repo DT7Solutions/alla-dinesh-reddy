@@ -445,13 +445,6 @@ h1.vlt-large-heading {
         height: 45px !important;
         margin-left: 21px;
     }
-    .calendly-badge-widget .calendly-badge-content {
-        rotate: -90deg;
-    }
-    .calendly-badge-widget {
-        bottom: 35% !important;
-        right: 7.5% !important;
-    }
 }
 
 .vlt-partners {
@@ -740,6 +733,16 @@ h1.vlt-large-heading {
     text-align: center;
     vertical-align: middle;
     width: auto;
+}
+
+@media screen and (max-width: 769px) {
+    .calendly-badge-widget .calendly-badge-content {
+        rotate: -90deg;
+    }
+    .calendly-badge-widget {
+        bottom: 35% !important;
+        right: -22.5% !important;
+    }    
 }
 
 .vlt-post-hero-title {
