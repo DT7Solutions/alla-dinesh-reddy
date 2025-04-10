@@ -2,70 +2,54 @@ body {
     color: #FBFBFB;
     /* overflow: hidden; */
 }
-
 [data-anchor=Contact] .email {
     color: #FBFBFB;
 }
-
 [data-anchor=Contact] p {
     color: #FBFBFB;
 }
-
 .vlt-section[data-anchor="Partners"] .vlt-animated-block h3 {
     margin-top: -137px;
 }
-
-
 h3 {
     font-size: 2.4rem;
     line-height: 1.35;
 }
-
 .h1,
 h1 {
     font-size: 3rem;
 }
-
 .vlt-animated-block {
     margin-top: 5px;
 }
-
 .vlt-gap-140 {
     height: 3.75rem;
 }
-
 .vlt-gap-50 {
     height: 0.125rem;
 }
-
 .vlt-timeline-item {
     padding: 2.125rem 0px;
 }
-
 .vlt-gap-150 {
     height: 8.375rem;
 }
-
 .vlt-gap-30 {
     height: 0.875rem;
 }
-
 .vlt-gap-40 {
     height: 0.5rem;
 }
-
 .vlt-timeline-item__text {
     font-size: .9375rem;
     color: #FBFBFB;
 }
-
 .vlt-timeline-item__date {
     font-size: 1.3rem;
     display: block;
     margin-bottom: .3125rem;
     color: #FBFBFB;
 }
-
 .vlt-timeline-item__title {
     line-height: 1.6;
 }
@@ -448,13 +432,17 @@ h1.vlt-large-heading {
 }
 
 .vlt-partners {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin: 0px 0.5rem;
     padding: 0;
     list-style-type: none;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 6.5rem;
-    grid-row-gap: 5.5rem;
+    /* grid-template-columns: repeat(3, 1fr); */
+
+    grid-column-gap: 5rem;
+    grid-row-gap: 2.5rem;
     margin-right: 36px;
 }
 
