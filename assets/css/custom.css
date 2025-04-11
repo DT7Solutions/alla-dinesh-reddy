@@ -5,8 +5,21 @@ body {
 [data-anchor=Contact] .email {
     color: #FBFBFB;
 }
+[data-anchor=Awards] img {
+    max-width: 100%;
+    height: 388px; 
+}
+.vlt-video-button a {
+    width: 4.875rem;
+    height: 4.875rem;
+}
+.founder{
+    margin-top: 75px;
+}
+
 [data-anchor=Contact] p {
     color: #FBFBFB;
+    margin-bottom: 2.5%;
 }
 h3 {
     font-size: 2.4rem;
@@ -398,6 +411,9 @@ h1.vlt-large-heading {
     [data-anchor="Awards"] .vlt-animated-block {
         padding-top: 44px;
     }
+    [data-anchor="Testimonials"] h3 {
+       font-size: 1rem;
+    }    
     [data-anchor="Aboutme"] .vlt-animated-block {
         padding-top: 44px;
     }
@@ -412,6 +428,7 @@ h1.vlt-large-heading {
     }
     .vlt-section[data-anchor="Partners"] .vlt-animated-block h3 {
         margin-top: 20px;
+        font-size: 2rem;
     }
     .vlt-navbar .vlt-navbar-inner {
         padding: 1rem 0.5rem;
@@ -753,4 +770,26 @@ h1.vlt-large-heading {
 
 .vlt-section pp-scrollable {
     padding: 10px;
+}
+
+.vlt-post--masonry .vlt-post-header {
+    margin-bottom: 1.5%;
+}
+.vlt-post--masonry .vlt-post-footer {
+    margin-top: 2.5%;
+}
+address {
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+.vlt-form-group {
+    margin-bottom: 2.5%;
+}
+@media (max-width: 767px) {
+    address {
+        font-size: 1rem;
+    }
+    [data-anchor="Contact"] h4 {
+        margin-top: -50px;
+    }
 }
