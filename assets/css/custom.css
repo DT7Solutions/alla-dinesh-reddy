@@ -4,6 +4,7 @@ body {
 }
 [data-anchor=Contact] .email {
     color: #FBFBFB;
+    font-size: 1.75rem;
 }
 [data-anchor=Awards] img {
     max-width: 100%;
@@ -20,6 +21,7 @@ body {
 [data-anchor=Contact] p {
     color: #FBFBFB;
     margin-bottom: 2.5%;
+    font-size: 1.1rem;
 }
 h3 {
     font-size: 2.4rem;
@@ -130,7 +132,6 @@ h1 {
     -webkit-box-flex: 1;
     flex: 1 1 auto;
     -webkit-box-align: center;
-    align-items: flex-start;
 }
 
 .vlt-fixed-socials {
@@ -277,12 +278,12 @@ h1.vlt-large-heading {
 }
 
 .vlt-testimonial__text p {
-    font-size: 0.9rem;
+    font-size: 1.15rem;
     line-height: 2;
-    word-spacing: 1;
-    letter-spacing: 1;
 }
-
+.vlt-testimonial__meta {
+    margin-top: 3.375rem;
+}
 .swiper-container-autoheight,
 .swiper-container-autoheight .swiper-slide {
     height: auto;
@@ -298,6 +299,30 @@ h1.vlt-large-heading {
     font-size: 1rem;
     pointer-events: auto
 }
+/* whatsapp float icon  */
+.float {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 10%;
+    right: 4.5%;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 32px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 10001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-float {
+    margin: 0;
+}
+
+/* whatsapp float icon  */
 
 /* Responsive Modes */
 @media (min-width: 1024px) {
@@ -442,6 +467,13 @@ h1.vlt-large-heading {
     .vlt-navbar .vlt-navbar-logo img {
         height: 45px !important;
         margin-left: 21px;
+    }
+    .float {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        bottom: 60px;
+        right: 13px;
     }
 }
 
@@ -715,28 +747,6 @@ h1.vlt-large-heading {
     color: #cf000f;
 }
 
-/* Calendly  */
-.calendly-badge-widget {
-    bottom: 10.5% !important;
-    right: 2.5% !important;
-}
-
-.calendly-badge-widget .calendly-badge-content {
-    border-radius: 25px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
-    color: #fff;
-    cursor: pointer;
-    display: table-cell;
-    font-family: sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    height: 45px;
-    padding: 0 30px;
-    text-align: center;
-    vertical-align: middle;
-    width: auto;
-}
-
 @media screen and (max-width: 769px) {
     .calendly-badge-widget .calendly-badge-content {
         rotate: -90deg;
@@ -779,7 +789,7 @@ h1.vlt-large-heading {
     margin-top: 2.5%;
 }
 address {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 5%;
 }
 .vlt-form-group {
