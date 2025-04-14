@@ -2,19 +2,23 @@ body {
     color: #FBFBFB;
     /* overflow: hidden; */
 }
+
 [data-anchor=Contact] .email {
     color: #FBFBFB;
     font-size: 1.75rem;
 }
+
 [data-anchor=Awards] img {
     max-width: 100%;
-    height: 388px; 
+    height: 388px;
 }
+
 .vlt-video-button a {
     width: 4.875rem;
     height: 4.875rem;
 }
-.founder{
+
+.founder {
     margin-top: 75px;
 }
 
@@ -23,45 +27,57 @@ body {
     margin-bottom: 2.5%;
     font-size: 1.1rem;
 }
+
 h3 {
     font-size: 2.4rem;
     line-height: 1.35;
 }
+
 .h1,
 h1 {
     font-size: 3rem;
 }
+
 .vlt-animated-block {
     margin-top: 5px;
 }
+
 .vlt-gap-140 {
     height: 3.75rem;
 }
+
 .vlt-gap-50 {
     height: 0.125rem;
 }
+
 .vlt-timeline-item {
     padding: 2.125rem 0px;
 }
+
 .vlt-gap-150 {
     height: 0.375rem;
 }
+
 .vlt-gap-30 {
     height: 0.875rem;
 }
+
 .vlt-gap-40 {
     height: 0.5rem;
 }
+
 .vlt-timeline-item__text {
     font-size: .9375rem;
     color: #FBFBFB;
 }
+
 .vlt-timeline-item__date {
     font-size: 1.3rem;
     display: block;
     margin-bottom: .3125rem;
     color: #FBFBFB;
 }
+
 .vlt-timeline-item__title {
     line-height: 1.6;
 }
@@ -281,9 +297,11 @@ h1.vlt-large-heading {
     font-size: 1.15rem;
     line-height: 2;
 }
+
 .vlt-testimonial__meta {
     margin-top: 3.375rem;
 }
+
 .swiper-container-autoheight,
 .swiper-container-autoheight .swiper-slide {
     height: auto;
@@ -299,6 +317,7 @@ h1.vlt-large-heading {
     font-size: 1rem;
     pointer-events: auto
 }
+
 /* whatsapp float icon  */
 .float {
     position: fixed;
@@ -433,41 +452,52 @@ h1.vlt-large-heading {
     .vlt-fullpage-slider .vlt-section__content {
         padding: 5% 2.5%;
     }
+
     [data-anchor="Awards"] .vlt-animated-block {
         padding-top: 44px;
     }
+
     [data-anchor="Testimonials"] h3 {
-       font-size: 1rem;
-    }    
+        font-size: 1rem;
+    }
+
     [data-anchor="Aboutme"] .vlt-animated-block {
         padding-top: 44px;
     }
+
     [data-anchor="Aboutme"] .vlt-animated-block p {
         margin: -49px 0 1.875rem;
     }
+
     [data-anchor="Education"] .vlt-animated-block {
         padding-top: 44px;
     }
+
     [data-anchor="Contact"] .vlt-animated-block {
         padding-top: 44px;
     }
+
     .vlt-section[data-anchor="Partners"] .vlt-animated-block h3 {
         margin-top: 20px;
         font-size: 2rem;
     }
+
     .vlt-navbar .vlt-navbar-inner {
         padding: 1rem 0.5rem;
         justify-content: space-between;
         margin-left: -30px;
         background-color: #cf000f;
     }
+
     .vlt-post-tags a {
-          font-size: 9px;
-        }
+        font-size: 9px;
+    }
+
     .vlt-navbar .vlt-navbar-logo img {
         height: 45px !important;
         margin-left: 21px;
     }
+
     .float {
         width: 40px;
         height: 40px;
@@ -707,6 +737,7 @@ h1.vlt-large-heading {
     .vlt-footer-copyright {
         display: none;
     }
+
     .vlt-footer {
         display: none;
     }
@@ -742,6 +773,7 @@ h1.vlt-large-heading {
         margin-top: 0px !important;
     }
 }
+
 .has-accent-color {
     margin-top: -400px;
     color: #cf000f;
@@ -751,10 +783,11 @@ h1.vlt-large-heading {
     .calendly-badge-widget .calendly-badge-content {
         rotate: -90deg;
     }
+
     .calendly-badge-widget {
         bottom: 35% !important;
         right: -22.5% !important;
-    }    
+    }
 }
 
 .vlt-post-hero-title {
@@ -785,20 +818,25 @@ h1.vlt-large-heading {
 .vlt-post--masonry .vlt-post-header {
     margin-bottom: 1.5%;
 }
+
 .vlt-post--masonry .vlt-post-footer {
     margin-top: 2.5%;
 }
+
 address {
     font-size: 1.5rem;
     margin-bottom: 5%;
 }
+
 .vlt-form-group {
     margin-bottom: 2.5%;
 }
+
 @media (max-width: 767px) {
     address {
         font-size: 1rem;
     }
+
     [data-anchor="Contact"] h4 {
         margin-top: -50px;
     }
