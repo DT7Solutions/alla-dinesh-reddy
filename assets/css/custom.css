@@ -31,7 +31,10 @@ body {
     border-radius: 49.9%;
   }
 #profile-description{
-    font-size: 12px;
+    font-size: 14px;
+}
+.see{
+    margin-top: 23px;
 }
   
 
