@@ -31,12 +31,27 @@ body {
     border-radius: 49.9%;
   }
 #profile-description{
-    font-size: 15px;
+    font-size: 14px;
 }
 .see{
     margin-top: 23px;
 }
+.vlt-section.pp-scrollable .vlt-awards-anchor .vlt-swiper-pagination {
+    margin-top: 20px !important;
+}
+
   
+.vlt-post--masonry .vlt-post-content {
+    padding: 1rem;
+}
+.vlt-post--masonry .vlt-post-media img {
+    width: 100%;
+    height: auto;
+}
+.vlt-post--masonry .vlt-post-header .vlt-post-title {
+    font-size: 1rem;
+    font-weight: 500;
+}
 
 [data-anchor=Contact] p {
     color: #FBFBFB;
@@ -169,6 +184,7 @@ h1 {
 .vlt-fixed-socials {
     left: 2rem;
     padding: 7.5rem 2.5rem;
+    z-index: 99;
 }
 
 .vlt-fixed-socials::after,
