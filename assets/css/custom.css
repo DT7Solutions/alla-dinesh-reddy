@@ -12,6 +12,9 @@ body {
     max-width: 100%;
     height: 388px;
 }
+[data-anchor="Awards"] .vlt-animated-block {
+    margin-bottom: 15px !important;
+}
 
 .vlt-video-button a {
     width: 4.875rem;
@@ -51,6 +54,10 @@ body {
 .vlt-post--masonry .vlt-post-header .vlt-post-title {
     font-size: 1rem;
     font-weight: 500;
+    min-height: 50px;
+}
+.vlt-post--masonry .vlt-read-more-link {
+    display: none;
 }
 
 [data-anchor=Contact] p {
@@ -852,10 +859,6 @@ h1.vlt-large-heading {
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
-}
-
-[data-anchor="Awards"] .vlt-animated-block {
-    margin-bottom: -50px !important;
 }
 
 .vlt-gap-60 {
