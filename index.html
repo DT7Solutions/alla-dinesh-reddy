@@ -874,7 +874,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 	<script>
-		// Initialize EmailJS with your public key
+		// Initialize EmailJS
 		(function () {
 		  emailjs.init("aavbDg48IKeHmYjKA"); // Replace with your actual public key
 		})();
@@ -882,6 +882,10 @@
 		// Handle form submission
 		document.querySelector(".vlt-contact-form").addEventListener("submit", function (e) {
 		  e.preventDefault();
+	  
+		  // Hide both messages initially
+		  document.querySelector(".message.success").style.display = "none";
+		  document.querySelector(".message.danger").style.display = "none";
 	  
 		  const name = document.getElementById("name").value;
 		  const email = document.getElementById("email").value;
