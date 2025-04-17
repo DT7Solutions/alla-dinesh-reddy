@@ -21,9 +21,6 @@ body {
     height: 4.875rem;
 }
 
-.founder {
-    margin-top: 75px;
-}
 .small-img {
     width: 56px;
     height: 56px;
@@ -181,15 +178,14 @@ h1 {
     display: flex;
     width: 100%;
     min-height: 100%;
-    padding: 5%;
+    padding: 5% 2.5%;
     -webkit-box-flex: 1;
     flex: 1 1 auto;
     -webkit-box-align: center;
 }
-
 .vlt-fixed-socials {
-    left: 2rem;
-    padding: 7.5rem 2.5rem;
+    left: 2.5%;
+    padding: 7.5% 2.5%;
     z-index: 99;
 }
 
