@@ -47,6 +47,7 @@
 .vlt-fixed-socials {
     left: 2.5%;
     padding: 5% 2.5% 5% 0%;
+    z-index: 22;
 }
 .vlt-fixed-socials::after,.vlt-fixed-socials::before {
     width: 1px;
