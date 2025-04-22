@@ -202,6 +202,113 @@
 	VLTJS.contentSlider.init();
 
 })(jQuery);
+
+/***********************************************
+ * SITE: AWARD SLIDER
+ ***********************************************/
+(function ($) {
+
+	'use strict';
+
+	// check if plugin defined
+	if (typeof Swiper === 'undefined') {
+		return;
+	}
+
+	VLTJS.awardSlider = {
+		init: function () {
+
+			$('.award-slider').each(function () {
+
+				var $this = $(this),
+					container = $this.find('.swiper-container'),
+					anchor = $this.data('navigation-anchor'),
+					gap = $this.data('gap') || 0,
+					effect = $this.data('effect') || 'slide',
+					loop = $this.data('loop') || false,
+					speed = $this.data('speed') || 1000,
+					autoplay = $this.data('autoplay') ? true : false,
+					centered = $this.data('slides-centered') ? true : false,
+					freemode = $this.data('free-mode') ? true : false,
+					slider_offset = $this.data('slider-offset') ? true : false,
+					mousewheel = $this.data('mousewheel') ? true : false,
+					autoplay_speed = $this.data('autoplay-speed'),
+					settings = $this.data('slide-settings');
+
+				var swiper = new Swiper(container, {
+					init: false,
+					spaceBetween: gap,
+					grabCursor: true,
+					effect: effect,
+					initialSlide: settings.initial_slide ? settings.initial_slide : 0,
+					loop: loop,
+					speed: speed,
+					centeredSlides: centered,
+					freeMode: freemode,
+					autoHeight: true,
+					mousewheel: mousewheel,
+					autoplay: autoplay ? {
+						delay: autoplay_speed,
+						disableOnInteraction: false
+					} : false,
+					slidesOffsetBefore: slider_offset ? $('.container').get(0).getBoundingClientRect().left + 15 : false,
+					slidesOffsetAfter: slider_offset ? $('.container').get(0).getBoundingClientRect().left + 15 : false,
+					navigation: {
+						nextEl: $(anchor).find('.vlt-swiper-button-next'),
+						prevEl: $(anchor).find('.vlt-swiper-button-prev'),
+					},
+					pagination: {
+						el: $(anchor).find('.vlt-swiper-pagination'),
+						clickable: true,
+						renderBullet: function (index, className) {
+							return '<span class="' + className + '"></span>';
+						}
+					},
+					breakpoints: {
+						576: {
+							slidesPerView: settings.slides_to_show_mobile || settings.slides_to_show_tablet || settings.slides_to_show || 3,
+							slidesPerGroup: settings.slides_to_scroll_mobile || settings.slides_to_scroll_tablet || settings.slides_to_scroll || 3,
+						},
+						768: {
+							slidesPerView: settings.slides_to_show_tablet || settings.slides_to_show || 3,
+							slidesPerGroup: settings.slides_to_scroll_tablet || settings.slides_to_scroll || 3,
+						},
+						992: {
+							slidesPerView: settings.slides_to_show || 3,
+							slidesPerGroup: settings.slides_to_scroll || 3,
+						}
+					}
+				});
+
+				swiper.on('init slideChange', function () {
+
+					if ($this.find('.vlt-project').length) {
+
+						var current = swiper.realIndex,
+							sectionsBackgroundImage = $('.vlt-section__projects-background img');
+
+						sectionsBackgroundImage.removeClass('is-active');
+						sectionsBackgroundImage.eq(current).addClass('is-active');
+
+					}
+
+				});
+
+				swiper.init();
+
+				setTimeout(function () {
+					swiper.updateAutoHeight();
+				}, 50);
+
+			});
+		}
+	}
+
+	VLTJS.awardSlider.init();
+
+})(jQuery);
+
+
 /***********************************************
  * SITE: FULLPAGE SLIDER
  ***********************************************/
