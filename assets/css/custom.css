@@ -361,3 +361,58 @@ h1.vlt-large-heading {
         padding: 5% 2.5%;
     }
 }
+
+.linkedin .card {
+    border-radius: 12px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .linkedin .card .btn {
+    background: transparent;
+    color: rgb(15, 87, 155);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .linkedin .card .btn:hover {
+    color: #ffffff;
+    background-color: rgb(15, 87, 155);
+  }
+  
+  .linkedin .card-img-top {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -35px;
+    border: 3px solid #fff;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .linkedin .card-header {
+    background-color: #38434f;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+
+  }
+  
+  .btn-profile {
+    margin-left: 0;
+  }
+  
+  .in-text {
+    background-color: rgb(244, 249, 244);
+    color: #38434f;
+    font-weight: 600;
+    padding: 0 5px;
+    margin-left: 4px;
+    border-radius: 3px;
+  }
+  
+  .linkedin .card .h2, h2 {
+    font-size: 2.8rem;
+    padding-top: 40px;
+}
