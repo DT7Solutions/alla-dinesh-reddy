@@ -221,7 +221,10 @@ h1.vlt-large-heading {
     margin-bottom: 2.5%;
     color: #FFF;
 }
-
+/* awards section  */
+.awards-slider .item img {
+    max-height: 350px;
+}
 /* Partners */
 .vlt-partners {
     display: flex;
