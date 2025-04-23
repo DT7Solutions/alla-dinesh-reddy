@@ -62,6 +62,10 @@
 .vlt-fixed-socials::after {
     margin-top: 2.5%
 }
+.vlt-video-button a {
+    width: 3.875rem;
+    height: 3.875rem;
+}
 
 /* Section Scroll Bar */
 .vlt-fullpage-slider-progress-bar {
@@ -429,10 +433,10 @@ h1.vlt-large-heading {
         object-fit: contain;
         border-right: none;
     }
-    .about-content .h3,
+    /* .about-content .h3,
     .about-content h3{
         font-size: 2.15rem;
-    }
+    } */
     .reviews{
         margin-top: 7.5rem;
     }
@@ -451,7 +455,52 @@ h1.vlt-large-heading {
         pointer-events: auto
     }
     .vlt-fullpage-slider .vlt-section__content {
-        padding: 5% 2.5%;
+        padding: 15% 0.5%;
+    }
+    .vlt-footer-copyright{
+        display: none;
+    }
+    .vlt-language-switcher{
+        display: none;
+    }
+    .vlt-fullpage-slider .vlt-section .vlt-section__projects-background img {
+        display: none;
+    }
+    .vlt-video-button a {
+        width: 3.875rem;
+        height: 3.875rem;
+    }
+    .has-accent-color svg {
+        height: 50px;
+    }
+    
+    h3 {
+        font-size: 1.8rem;
+        line-height: 1.35;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    
+    .vlt-testimonial__text p {
+        font-size: 15px;
+    }
+    .vlt-testimonial__meta {
+        margin-top: 1.2rem;
+    }
+    address {
+    font-size: 16px;
+    }
+    [data-anchor="Contact"] .tel, [data-anchor="Contact"] .email {
+        font-size: 16px;
+    }
+    .card{
+        width: 20rem !important;
+    }
+    .vlt-section__ken-linkedin-background{
+        display: none;
     }
 }
-
