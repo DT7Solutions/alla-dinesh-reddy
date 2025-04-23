@@ -360,6 +360,9 @@ h1.vlt-large-heading {
     color: rgb(255, 255, 255);
     margin-bottom: 2.5%;
 }
+address {
+    font-size: 25px;
+}
 
 /* Footer */
 .vlt-footer {
